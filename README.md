@@ -1,3 +1,6 @@
+FANDI NURREZKY
+2411102441175
+
 1. Mengapa memilih konfigurasi col tertentu untuk tiap breakpoint?
 alasan utamanya supaya nyaman dilihat dan nyaman dipakai di semua perangkat dari hp smpai ke layar monitor yang lebi besar
 - Di HP (col-12): Layar HP kan sempit Jadi, aku pasang 1 kolom aja biar fotonya kelihatan jelas dan gede
