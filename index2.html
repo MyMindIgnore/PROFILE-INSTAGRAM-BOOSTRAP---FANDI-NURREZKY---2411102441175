@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Instagram Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .story-scroll::-webkit-scrollbar {
+            height: 6px;
+        }
+        .story-scroll::-webkit-scrollbar-track {
+            background: #262626; 
+            border-radius: 10px;
+        }
+        .story-scroll::-webkit-scrollbar-thumb {
+            background: #4b5563; 
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="bg-black text-gray-200">
+
+    <div class="flex">
+        
+        <aside class="hidden md:block w-64 border-r border-gray-800 p-6 min-h-screen">
+            <div class="space-y-8">
+                <h1 class="text-3xl font-serif text-white mb-10">Instagram</h1>
+                <nav class="space-y-6 text-lg">
+                    <a href="#" class="flex items-center space-x-4 p-2 rounded-lg hover:bg-gray-800">
+                        <i class="fas fa-home w-6"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="#" class="flex items-center space-x-4 p-2 rounded-lg hover:bg-gray-800">
+                        <i class="fas fa-search w-6"></i>
+                        <span>Search</span>
+                    </a>
+                    <a href="#" class="flex items-center space-x-4 p-2 rounded-lg hover:bg-gray-800">
+                        <i class="far fa-compass w-6"></i>
+                        <span>Explore</span>
+                    </a>
+                    <a href="#" class="flex items-center space-x-4 p-2 rounded-lg hover:bg-gray-800">
+                        <i class="far fa-paper-plane w-6"></i>
+                        <span>Messages</span>
+                    </a>
+                    <a href="#" class="flex items-center space-x-4 p-2 rounded-lg hover:bg-gray-800">
+                        <i class="far fa-heart w-6"></i>
+                        <span>Notifications</span>
+                    </a>
+                    <a href="#" class="flex items-center space-x-4 p-2 rounded-lg hover:bg-gray-800">
+                        <i class="far fa-plus-square w-6"></i>
+                        <span>Create</span>
+                    </a>
+                    <a href="#" class="flex items-center space-x-4 font-bold text-white p-2 rounded-lg bg-gray-800">
+                        <img src="images/profile.jpg" alt="Profile" class="w-6 h-6 rounded-full">
+                        <span>Profile</span>
+                    </a>
+                </nav>
+            </div>
+        </aside>
+
+        <div class="w-full">
+            <div class="container mx-auto max-w-4xl p-4">
+                
+                <main class="mt-8">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div class="col-span-1 flex justify-center md:justify-start">
+                            <img src="images/profile.jpg" alt="Profile Picture" class="w-36 h-36 md:w-40 md:h-40 rounded-full object-cover border-2 border-pink-500 p-1">
+                        </div>
+
+                        <div class="md:col-span-2 space-y-4">
+                            <div class="flex items-center space-x-4">
+                                <h1 class="text-2xl font-light text-white">whoistokyo</h1>
+                                <button class="font-semibold text-sm py-1 px-4 md:px-6 bg-gray-800 rounded-md hover:bg-gray-700 text-white">Edit Profile</button>
+                            </div>
+
+                            <div class="flex space-x-8">
+                                <div><span class="font-bold text-white">12</span> posts</div>
+                                <div><span class="font-bold text-white">1.2m</span> followers</div>
+                                <div><span class="font-bold text-white">280</span> following</div>
+                            </div>
+                            
+                            <div>
+                                 <h2 class="font-semibold text-white">4BLOODS</h2>
+                                 <p class="text-gray-400">Content Creator</p>
+                                 <p>WE STAND FOR EAST SIDE 🗣️</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <section class="my-10">
+                        <div class="flex space-x-6 overflow-x-auto story-scroll scrollbar-hide">
+                            
+                            <div class="flex-shrink-0 text-center w-20">
+                                <div class="w-20 h-20 mx-auto rounded-full flex items-center justify-center bg-gray-800 border-2 border-gray-700">
+                                    <img src="images/blood.jpg" alt="Highlight 1" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <p class="text-sm mt-2 truncate">HOMIE</p>
+                            </div>
+                            
+                            <div class="flex-shrink-0 text-center w-20">
+                                <div class="w-20 h-20 mx-auto rounded-full flex items-center justify-center bg-gray-800 border-2 border-gray-700">
+                                     <img src="images/pic3.jpg" alt="Highlight 2" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <p class="text-sm mt-2 truncate">RORRR</p>
+                            </div>
+
+                            <div class="flex-shrink-0 text-center w-20">
+                                <div class="w-20 h-20 mx-auto rounded-full flex items-center justify-center bg-gray-800 border-2 border-gray-700">
+                                     <img src="images/pic2.jpg" alt="Highlight 3" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <p class="text-sm mt-2 truncate">🤞</p>
+                            </div>
+
+                            <div class="flex-shrink-0 text-center w-20">
+                                <div class="w-20 h-20 mx-auto rounded-full flex items-center justify-center bg-black border-2 border-gray-700 text-gray-500">
+                                    <i class="fas fa-plus text-3xl"></i>
+                                </div>
+                                <p class="text-sm mt-2 text-gray-500">New</p>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <div class="border-t border-gray-800 pt-2">
+                        <div class="flex justify-center items-center space-x-12 uppercase text-sm font-semibold text-gray-500">
+                            <a href="#" class="text-white border-t border-white p-3">Posts</a>
+                            <a href="#" class="p-3">Reels</a>
+                            <a href="#" class="p-3">Tagged</a>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-1 md:gap-4 mt-4">
+                            <div class="relative group aspect-square">
+                                <img src="https://picsum.photos/seed/1/500/500" alt="Post 1" class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <p class="text-white font-bold">❤️ 1.2k</p>
+                                </div>
+                            </div>
+                            <div class="relative group aspect-square">
+                                <img src="https://picsum.photos/seed/2/500/500" alt="Post 2" class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <p class="text-white font-bold">❤️ 980</p>
+                                </div>
+                            </div>
+                            <div class="relative group aspect-square">
+                                <img src="https://picsum.photos/seed/3/500/500" alt="Post 3" class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                   <p class="text-white font-bold">❤️ 2.5k</p>
+                                </div>
+                            </div>
+                            <div class="relative group aspect-square">
+                                <img src="https://picsum.photos/seed/4/500/500" alt="Post 4" class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <p class="text-white font-bold">❤️ 750</p>
+                                </div>
+                            </div>
+                            <div class="relative group aspect-square">
+                                <img src="https://picsum.photos/seed/5/500/500" alt="Post 5" class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <p class="text-white font-bold">❤️ 1.8k</p>
+                                </div>
+                            </div>
+                            <div class="relative group aspect-square">
+                                <img src="https://picsum.photos/seed/6/500/500" alt="Post 6" class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <p class="text-white font-bold">❤️ 3.1k</p>
+                                </div>
+                            </div>
+                            <div class="relative group aspect-square">
+                                <img src="https://picsum.photos/seed/7/500/500" alt="Post 7" class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <p class="text-white font-bold">❤️ 890</p>
+                                </div>
+                            </div>
+                            <div class="relative group aspect-square">
+                                <img src="https://picsum.photos/seed/8/500/500" alt="Post 8" class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <p class="text-white font-bold">❤️ 1.1k</p>
+                                </div>
+                            </div>
+                            <div class="relative group aspect-square">
+                                <img src="https://picsum.photos/seed/9/500/500" alt="Post 9" class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <p class="text-white font-bold">❤️ 4.2k</p>
+                                </div>
+                            </div>
+                            <div class="relative group aspect-square">
+                                <img src="https://picsum.photos/seed/9/500/500" alt="Post 9" class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <p class="text-white font-bold">❤️ 4.2k</p>
+                                </div>
+                            </div>
+                            <div class="relative group aspect-square">
+                                <img src="https://picsum.photos/seed/9/500/500" alt="Post 9" class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <p class="text-white font-bold">❤️ 4.2k</p>
+                                </div>
+                            </div>
+                            <div class="relative group aspect-square">
+                                <img src="https://picsum.photos/seed/9/500/500" alt="Post 9" class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <p class="text-white font-bold">❤️ 4.2k</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+
+                <footer class="text-center text-xs text-gray-600 mt-12">
+                    <div class="flex flex-wrap justify-center space-x-4">
+                        <a href="#">Meta</a>
+                        <a href="#">About</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Jobs</a>
+                        <a href="#">Help</a>
+                        <a href="#">API</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Locations</a>
+                    </div>
+                    <div class="mt-4">
+                        <p>&copy; 2025 INSTAGRAM FROM META</p>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
